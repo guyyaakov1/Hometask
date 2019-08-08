@@ -1,0 +1,25 @@
+{
+  "name": "feedbackdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gravatar-node-js": "^1.0.0",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose": "^5.6.8",
+    "nodejs-gravatar": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "~1.3.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

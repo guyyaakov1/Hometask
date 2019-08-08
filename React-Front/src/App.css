@@ -1,0 +1,56 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import 'https://use.fontawesome.com/releases/v5.7.0/css/all.css';
+
+.form-container{
+  margin-bottom: 20px;
+}
+.comment-container .form-control, .input-group{
+  width: 300px;
+  flex-wrap: nowrap;
+}
+
+
+.comment-item{
+  display: flex;
+  position: relative;
+  box-shadow: 0 0 4px 1px silver;
+  margin-bottom: 10px;
+  border-radius: 5px;}
+
+.rank{
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+.comment-avatar img{
+  border-radius: 50%;
+}
+
+.comment-email{
+  color: #0099CC;
+  font-weight: 600;
+}
+
+.comment-info{
+  padding: 15px 0 0 15px;
+}
+
+.comment-content{
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.comment-avatar{
+  padding: 5px;
+}
+
+.comment-container{
+ width: 600px;
+ margin: auto;
+}
+
+@media (max-width:550px){
+  .comment-container{
+    width:90%;
+  }
+}
